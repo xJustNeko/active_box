@@ -1,0 +1,23 @@
+.section {
+  width: 100%;
+}
+.header__bg {
+  display: flex;
+  background-image: url(/assets/header-background.png);
+  min-height: 747px;
+  max-width: 100%;
+  background-size: cover;
+}
+.header__bg-shadow {
+  background-color: #252b49af !important;
+  height: 747px;
+  width: 100%;
+  background-size: cover;
+}
+.header__nav-bar {
+  display: flex;
+  flex-direction: row;
+}
+.header__nav-item .a {
+  color: white;
+}
