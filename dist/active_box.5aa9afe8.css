@@ -300,7 +300,6 @@ select {
   }
 }
 .samples__wrapper {
-  width: 100%;
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(4, 1fr);
 }
@@ -343,15 +342,12 @@ select {
   transition: all 0.7s ease-in-out;
 }
 .samples__wrapper .samples__item__text h2 {
-  font-family: "Raleway";
-  font-style: normal;
+  display: flex;
+  text-align: center;
+  text-transform: uppercase;
   font-weight: 900;
   font-size: 24px;
   line-height: 28px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  text-transform: uppercase;
   color: #ffffff;
   margin-bottom: 26px;
 }
@@ -364,16 +360,13 @@ select {
   }
 }
 .samples__wrapper .samples__item__text span {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 21px;
   display: flex;
-  align-items: center;
   text-align: center;
   color: #ffffff;
   margin-top: 10px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
 }
 @media (max-width: 1024px) {
   .samples__wrapper .samples__item__text span {

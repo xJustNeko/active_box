@@ -1,5 +1,4 @@
 .samples__wrapper {
-    width: 100%;
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(4, 1fr);
 
@@ -35,23 +34,19 @@
             align-items: center;
             flex-direction: column;
             background: rgba(255, 67, 67, 0.8);
-            border: 2px solid #ffffff;
+            border: 2px solid @white;
             cursor: pointer;
             transition: all 0.7s ease-in-out;
 
             h2 {
-                font-family: "Raleway";
-                font-style: normal;
+                display: flex;
+                text-align: center;
+                text-transform: uppercase;
                 font-weight: 900;
                 font-size: 24px;
                 line-height: 28px;
-                display: flex;
-                align-items: center;
-                text-align: center;
-                text-transform: uppercase;
-                color: #ffffff;
+                color: @white;
                 margin-bottom: 26px;
-
                 @media (max-width: 1024px) {
                     font-size: 18px;
                     line-height: 21px;
@@ -61,16 +56,13 @@
             }
 
             span {
-                font-family: "Raleway";
-                font-style: normal;
+                display: flex;
+                text-align: center;
+                color: @white;
+                margin-top: 10px;
                 font-weight: 400;
                 font-size: 18px;
                 line-height: 21px;
-                display: flex;
-                align-items: center;
-                text-align: center;
-                color: #ffffff;
-                margin-top: 10px;
 
                 @media (max-width: 1024px) {
                     font-size: 14px;
