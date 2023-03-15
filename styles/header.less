@@ -5,6 +5,25 @@
 .header {
     font-family: @Raleway;
     color: @white;
+    @media (min-width: 1624px) {
+        margin: 0 auto;
+    }
+
+    @media (max-width: 1324px) {
+        margin: 0px 95px;
+    }
+
+    @media (max-width: 1154px) {
+        margin: 0px 55px;
+    }
+
+    @media (max-width: 1024px) {
+        margin: 0px 20px;
+    }
+
+    @media (max-width: 320px) {
+        border-bottom: none;
+    }
 
     &__bg {
         display: flex;
@@ -30,35 +49,50 @@
             justify-content: space-between;
             width: 1170px;
             margin: 0 auto;
+            height: 100%;
         }
 
         &-items {
+            height: 100%;
             display: flex;
-            align-items: flex-end;
+            align-items: center;
             justify-content: center;
             max-width: 100%;
 
             ul {
                 display: flex;
                 justify-content: center;
+                height: 100%;
             }
 
             ul li {
                 display: flex;
+                height: 100%;
                 width: 134px;
             }
 
             ul li a:hover {
                 color: @red;
+                border-bottom: 3px solid @gray-saparator;
             }
 
             ul li a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
                 text-align: center;
                 color: @white;
                 font-size: 13px;
                 font-weight: 700;
                 cursor: pointer;
                 transition: all 0.7s ease-in-out;
+
+                @media (max-width: 1024px) {
+                    min-width: 112px;
+                    font-size: 12px;
+                    line-height: 14px;
+                }
             }
 
             ul li a.active {
