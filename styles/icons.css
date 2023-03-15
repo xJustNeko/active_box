@@ -1,0 +1,139 @@
+.icons__container {
+  max-width: 1510px;
+  margin: 66px 165px 83px 165px;
+  display: grid;
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+  justify-items: center;
+}
+@media (min-width: 1624px) {
+  .icons__container {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1324px) {
+  .icons__container {
+    margin: 0px 95px;
+  }
+}
+@media (max-width: 1024px) {
+  .icons__container {
+    margin: 28px 15px 30px 15px;
+  }
+}
+@media (max-width: 815px) {
+  .icons__container {
+    grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+  }
+}
+@media (max-width: 500px) {
+  .icons__container {
+    grid-template: repeat(6, 1fr) / repeat(1, 1fr);
+  }
+}
+@media (max-width: 320px) {
+  .icons__container {
+    margin: 0 15px;
+  }
+}
+.icons__container .icons__item {
+  max-width: 370px;
+  margin: 50px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 320px) {
+  .icons__container .icons__item {
+    margin: 40px 5px;
+  }
+}
+.icons__container .icons__item__img {
+  padding-bottom: 29px;
+}
+@media (max-width: 1024px) {
+  .icons__container .icons__item__img {
+    padding-bottom: 24px;
+  }
+}
+@media (max-width: 320px) {
+  .icons__container .icons__item__img {
+    padding-bottom: 21px;
+  }
+}
+.icons__container .icons__item__title {
+  padding: 22px 0;
+}
+@media (max-width: 1024px) {
+  .icons__container .icons__item__title {
+    padding: 19px 0;
+  }
+}
+@media (max-width: 320px) {
+  .icons__container .icons__item__title {
+    padding: 16px 0;
+  }
+}
+.icons__container .icons__item__description {
+  padding-top: 20px;
+}
+@media (max-width: 1024px) {
+  .icons__container .icons__item__description {
+    padding-top: 4px;
+  }
+}
+@media (max-width: 320px) {
+  .icons__container .icons__item__description {
+    padding-top: 0px;
+  }
+}
+.icons__container .icons__item img {
+  max-height: 100px;
+  max-width: 100px;
+}
+@media (max-width: 1024px) {
+  .icons__container .icons__item img {
+    max-height: 85px;
+    max-width: 85px;
+  }
+}
+@media (max-width: 320px) {
+  .icons__container .icons__item img {
+    max-height: 75px;
+    max-width: 75px;
+  }
+}
+.icons__container .icons__item h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #2d3033;
+}
+@media (max-width: 1024px) {
+  .icons__container .icons__item h2 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
+.icons__container .icons__item span {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6c7279;
+}
+@media (max-width: 1024px) {
+  .icons__container .icons__item span {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
