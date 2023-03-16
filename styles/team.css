@@ -1,0 +1,176 @@
+.team__container {
+  display: flex;
+  max-width: 1510px;
+}
+@media (min-width: 1624px) {
+  .team__container {
+    margin: 0 auto;
+  }
+}
+.team__container .team__wrapper {
+  max-width: 1510px;
+  margin: 0 165px;
+  width: 100%;
+}
+@media (max-width: 1324px) {
+  .team__container .team__wrapper {
+    margin: 0px 95px;
+  }
+}
+@media (max-width: 1024px) {
+  .team__container .team__wrapper {
+    margin: 0px 15px;
+  }
+}
+@media (max-width: 815px) {
+  .team__container .team__wrapper {
+    margin: 10px 15px;
+  }
+}
+.team__container .team__persons {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 815px) {
+  .team__container .team__persons {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+}
+.team__container .team__persons .team__person {
+  max-width: 270px;
+  margin: 57px 5px;
+}
+@media (max-width: 1024px) {
+  .team__container .team__persons .team__person {
+    max-width: 227px;
+  }
+}
+@media (max-width: 815px) {
+  .team__container .team__persons .team__person {
+    max-width: 280px;
+  }
+}
+@media (max-width: 1324px) {
+  .team__container .team__persons .team__person {
+    margin: 39px 5px;
+  }
+}
+@media (max-width: 815px) {
+  .team__container .team__persons .team__person {
+    margin: 25px 5px;
+  }
+}
+.team__container .team__persons .team__person-photo {
+  padding-bottom: 15px;
+}
+@media (max-width: 1024px) {
+  .team__container .team__persons .team__person-photo {
+    padding-bottom: 13px;
+  }
+}
+.team__container .team__persons .team__person-descriprion {
+  padding-top: 15px;
+}
+@media (max-width: 1024px) {
+  .team__container .team__persons .team__person-descriprion {
+    padding-top: 13px;
+  }
+}
+.team__container .team__persons .team__person-name {
+  padding-bottom: 5px;
+}
+.team__container .team__persons .team__person-title {
+  padding-bottom: 9px;
+}
+@media (max-width: 1024px) {
+  .team__container .team__persons .team__person-title {
+    padding-bottom: 11px;
+  }
+}
+@media (max-width: 570px) {
+  .team__container .team__persons .team__person-title {
+    padding-bottom: 19px;
+  }
+}
+.team__container .team__persons .team__person-bio {
+  padding-top: 9px;
+  padding-bottom: 19px;
+}
+@media (max-width: 1024px) {
+  .team__container .team__persons .team__person-bio {
+    padding-top: 11px;
+  }
+}
+@media (max-width: 570px) {
+  .team__container .team__persons .team__person-bio {
+    padding-top: 19px;
+    padding-bottom: 28px;
+  }
+}
+.team__container .team__persons .team__person h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  color: #2d3033;
+}
+@media (max-width: 1024px) {
+  .team__container .team__persons .team__person h3 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
+.team__container .team__persons .team__person h4 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #ff4343;
+}
+@media (max-width: 1324px) {
+  .team__container .team__persons .team__person h4 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+.team__container .team__persons .team__person p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #6c7279;
+}
+@media (max-width: 1024px) {
+  .team__container .team__persons .team__person p {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+.team__container .team__persons .team__person-links {
+  display: flex;
+  flex-direction: row;
+  padding-top: 19px;
+}
+@media (max-width: 570px) {
+  .team__container .team__persons .team__person-links {
+    padding-top: 27px;
+  }
+}
+.team__container .team__persons .team__person-links li {
+  padding-right: 6px;
+}
+.team__container .team__persons .team__person-links li:hover {
+  scale: 1.1;
+}
