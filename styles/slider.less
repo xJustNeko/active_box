@@ -11,7 +11,7 @@
         }
     }
     &__left__side {
-        width: 50%;
+        width: 100%;
         @media screen and (max-width: 770px) {
             width: 100%;
         }
@@ -28,14 +28,11 @@
         }
     }
     &__right__side {
-        width: 50%;
-        max-width: 769px;
-        padding: 0 60px;
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        width: 100%;
         @media screen and (max-width: 1080px) {
-            padding: 0 80px;
-        }
-        @media screen and (max-width: 770px) {
-            width: 100%;
         }
         @media screen and (max-width: 770px) {
             padding: 0 30px;
