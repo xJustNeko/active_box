@@ -609,7 +609,9 @@ select {
   }
 }
 .slaider__left__side img {
+  width: 100%;
   min-height: 490px;
+  max-height: 741px;
 }
 @media screen and (max-width: 1080px) {
   .slaider__left__side img {
@@ -657,7 +659,7 @@ select {
   }
 }
 .slaider__right__side__text__h h2 {
-  font-family: Cardo;
+  font-family: "Cardo", sans-serif;
   font-size: 36px;
   font-style: italic;
   font-weight: 400;
@@ -691,6 +693,110 @@ select {
 .slaider__radio {
   display: flex;
   justify-content: center;
+}
+.download {
+  margin-top: 110px;
+}
+@media screen and (max-width: 1040px) {
+  .download {
+    margin-top: 77px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .download {
+    margin-top: 38px;
+  }
+}
+.download__container {
+  margin: 0 auto;
+  text-align: center;
+}
+.download__title {
+  padding-bottom: 30px;
+}
+.download__title h2 {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35px;
+  color: #000;
+}
+@media screen and (max-width: 1040px) {
+  .download__title h2 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .download__title h2 {
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
+.download__description {
+  padding: 0 10px;
+}
+.download__description h3 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #000;
+}
+@media screen and (max-width: 1040px) {
+  .download__description h3 {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .download__description h3 {
+    font-size: 13px;
+    line-height: 15px;
+  }
+}
+.download__button button {
+  width: 18%;
+  background: #ff4343;
+  height: 78px;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+  border: 0px;
+  margin: 50px 0 115px 0;
+}
+@media screen and (max-width: 1800px) {
+  .download__button button {
+    width: 25%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .download__button button {
+    width: 30%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .download__button button {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 1040px) {
+  .download__button button {
+    width: 50%;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .download__button button {
+    width: 80%;
+  }
+}
+.download__button :hover {
+  background-color: #e71414;
+  cursor: pointer;
+  transition: all 0.7s ease-in-out;
 }
 body {
   font-family: "Raleway", sans-serif;
