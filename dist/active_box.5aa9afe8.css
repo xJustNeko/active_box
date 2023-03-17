@@ -585,6 +585,113 @@ select {
 .team__container .team__list .team__person__socials li:hover {
   background-color: #ff4343;
 }
+.slaider {
+  margin: 30px 0 30px 0;
+}
+.slaider__wrapper {
+  background: #5c3249;
+}
+.slaider__main {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 770px) {
+  .slaider__main {
+    flex-direction: column;
+  }
+}
+.slaider__left__side {
+  width: 50%;
+}
+@media screen and (max-width: 770px) {
+  .slaider__left__side {
+    width: 100%;
+  }
+}
+.slaider__left__side img {
+  min-height: 490px;
+}
+@media screen and (max-width: 1080px) {
+  .slaider__left__side img {
+    min-height: 332px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .slaider__left__side img {
+    min-height: 200px;
+  }
+}
+.slaider__right__side {
+  width: 50%;
+  max-width: 769px;
+  padding: 0 60px;
+}
+@media screen and (max-width: 1080px) {
+  .slaider__right__side {
+    padding: 0 80px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .slaider__right__side {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 770px) {
+  .slaider__right__side {
+    padding: 0 30px;
+  }
+}
+.slaider__right__side__text {
+  padding-top: 116px;
+  max-width: 471px;
+}
+@media screen and (max-width: 1080px) {
+  .slaider__right__side__text {
+    padding-top: 80px;
+    max-width: 471px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .slaider__right__side__text {
+    padding-top: 20px;
+  }
+}
+.slaider__right__side__text__h h2 {
+  font-family: Cardo;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 49px;
+  color: #ffffff;
+}
+@media screen and (max-width: 1080px) {
+  .slaider__right__side__text__h h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+.slaider__right__side__text__signature h6 {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 15px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 1080px) {
+  .slaider__right__side__text__signature h6 {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .slaider__right__side__text__signature h6 {
+    padding-bottom: 95px;
+  }
+}
+.slaider__radio {
+  display: flex;
+  justify-content: center;
+}
 body {
   font-family: "Raleway", sans-serif;
 }
